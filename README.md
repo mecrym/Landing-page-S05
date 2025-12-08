@@ -109,4 +109,3 @@ Para rodar este projeto localmente, siga os passos:
 
 * [LinkedIn](https://www.linkedin.com/in/maria-ecr-moreira/)
 * [Email](mailto:maria.moreira0410@gmail.com)
->>>>>>> 5477486474b442c9bc66d83b9d26eb4bf839798d
