@@ -1,18 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
 # Projeto Final - Interação Homem-Máquina (IHM)
 
 ![Project Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
@@ -21,11 +6,15 @@ Note: This will impact Vite dev & build performances.
 
 > Landing Page desenvolvida para documentar e apresentar o processo de design e desenvolvimento da solução "Busca de Vagas".
 
+---
+
 ## Sobre o Projeto
 
-Este projeto é uma **Landing Page de Documentação** criada como parte da avaliação final da disciplina de **Interação Homem-Máquina (IHM)** no **Inatel**. 
+Este projeto é uma **Landing Page de Documentação** criada como parte da avaliação final da disciplina de **Interação Homem-Máquina (IHM)** no **Inatel**.
 
 O objetivo desta aplicação web é apresentar, de forma interativa e visualmente agradável, os artefatos de design gerados durante o ciclo de desenvolvimento do software, incluindo Personas (User Stories), Análise de Tarefas (HTA), Modelagem (UML) e Wireframes.
+
+### Estilo e Identidade Visual
 
 A interface segue uma estética **"Clean Glassmorphism"** com tema escuro (Dark Mode), focada na legibilidade e na elegância visual.
 
@@ -78,7 +67,24 @@ O projeto é **100% responsivo**, adaptando-se a:
 
 ---
 
-## 🔧 Como Rodar o Projeto
+## Detalhes Técnicos e Configuração
+
+Este modelo fornece uma configuração mínima para que o React funcione no Vite com HMR e algumas regras de ESLint.
+
+Atualmente, dois plugins oficiais estão disponíveis:
+
+* **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react)** utiliza **[Babel](https://babeljs.io/)** (ou [oxc](https://oxc.rs) quando usado em [rolldown-vite](https://vite.dev/guide/rolldown)) para Fast Refresh.
+* **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc)** utiliza **[SWC](https://swc.rs/)** para Fast Refresh.
+
+### React Compiler
+
+O **React Compiler** está habilitado neste template. Consulte [esta documentação](https://react.dev/learn/react-compiler) para mais informações.
+
+**Nota:** A ativação do compilador pode impactar o desempenho do Vite durante o desenvolvimento (`dev`) e a construção (`build`).
+
+---
+
+## Como Rodar o Projeto
 
 Para rodar este projeto localmente, siga os passos:
 
@@ -104,7 +110,7 @@ Para rodar este projeto localmente, siga os passos:
 
 ## Autora
 
-**Maria Moreira** 🎓 Estudante de Engenharia de Software - Inatel  
+**Maria Moreira** 🎓 Estudante de Engenharia de Software - Inatel
 📍 Santa Rita do Sapucaí, MG
 
 * [LinkedIn](https://www.linkedin.com/in/maria-ecr-moreira/)
