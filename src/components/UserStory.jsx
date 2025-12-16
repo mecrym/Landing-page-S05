@@ -12,9 +12,9 @@ export default function UserStory() {
                         User Story
                     </h3>
 
-                    <div className="absolute top-0 bottom-0 left-0 w-[2px] bg-blue-500/30" />
+                    <div className="absolute top-0 bottom-0 left-0 w-0.5 bg-blue-500/30" />
 
-                    <div className="absolute bottom-0 left-0 w-full h-[2px] bg-blue-500/30" />
+                    <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500/30" />
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -23,7 +23,7 @@ export default function UserStory() {
                         
                         <h2 className='text-3xl md:text-4xl font-bold mb-6 text-white leading-tight'>
                             Traduzindo necessidades em <br/>
-                            <span className="bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-100 bg-clip-text text-transparent">
+                            <span className="bg-linear-to-r from-blue-400 via-blue-300 to-cyan-100 bg-clip-text text-transparent">
                                 funcionalidades
                             </span>
                         </h2>

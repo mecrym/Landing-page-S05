@@ -10,8 +10,8 @@ export default function Uml() {
                         Fluxo de Informações
                     </h3>
 
-                    <div className="absolute top-0 bottom-0 left-0 w-[2px] bg-blue-500/30" />
-                    <div className="absolute bottom-0 left-0 w-full h-[2px] bg-blue-500/30" />
+                    <div className="absolute top-0 bottom-0 left-0 w-0.5 bg-blue-500/30" />
+                    <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500/30" />
                 </div>
 
                 <div className="flex flex-col items-center space-y-12">
@@ -19,7 +19,7 @@ export default function Uml() {
                     <div className="text-center max-w-4xl animate-in slide-in-from-bottom duration-700">
                         <h2 className='text-3xl md:text-4xl font-bold mb-4 text-white leading-tight'>
                             Estrutura e <br className="md:hidden" />
-                            <span className="bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-100 bg-clip-text text-transparent">
+                            <span className="bg-linear-to-r from-blue-400 via-blue-300 to-cyan-100 bg-clip-text text-transparent">
                                 integridade de dados
                             </span>
                         </h2>
@@ -33,7 +33,7 @@ export default function Uml() {
 
                             <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-2 sm:p-4 shadow-2xl overflow-hidden">
                                 <img 
-                                    src="./uml.png" 
+                                    src="public/uml.png" 
                                     alt="Diagrama de Classes UML" 
                                     className="block w-full h-auto rounded-lg bg-white/5"
                                 />

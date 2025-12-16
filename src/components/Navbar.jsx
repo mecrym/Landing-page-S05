@@ -28,7 +28,7 @@ export default function Navbar() {
 
                     <div className="flex items-center space-x-2 group cursor-pointer">
                         <div>
-                            <img src="/logo-branco.png" alt="Inatel" className="h-6 sm:h-8" />
+                            <img src="public/logo-branco.png" alt="Inatel" className="h-6 sm:h-8" />
                         </div>
                     </div>
 

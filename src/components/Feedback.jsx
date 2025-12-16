@@ -13,8 +13,8 @@ export default function Feedback() {
                     <h3 className="text-left text-white/70 font-bold text-sm sm:text-base uppercase tracking-widest pl-6 pb-4">
                         Feedback & Contato
                     </h3>
-                    <div className="absolute top-0 bottom-0 left-0 w-[2px] bg-blue-500/30" />
-                    <div className="absolute bottom-0 left-0 w-full h-[2px] bg-blue-500/30" />
+                    <div className="absolute top-0 bottom-0 left-0 w-0.5 bg-blue-500/30" />
+                    <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500/30" />
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
@@ -24,7 +24,7 @@ export default function Feedback() {
                         <div>
                             <h2 className='text-3xl md:text-4xl font-bold mb-6 text-white leading-tight'>
                                 Sua opinião é fundamental para <br/>
-                                <span className="bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-100 bg-clip-text text-transparent">
+                                <span className="bg-linear-to-r from-blue-400 via-blue-300 to-cyan-100 bg-clip-text text-transparent">
                                     nossa evolução
                                 </span>
                             </h2>

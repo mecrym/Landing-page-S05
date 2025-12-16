@@ -97,7 +97,7 @@ export default function Footer() {
                             <li>
                                 <a href="#wireframes" onClick={(e) => scrollToSection(e, 'wireframes')} className="text-gray-400 hover:text-blue-400 transition-colors text-sm flex items-center group">
                                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500/50 mr-2 group-hover:bg-blue-400 transition-colors"></span>
-                                    Wireframes
+                                    Feedbacks
                                 </a>
                             </li>
                         </ul>

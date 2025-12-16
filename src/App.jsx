@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import UserStory from './components/UserStory';
-import Hts from './components/Hts';
+import Hta from './components/Hta';
 import Uml from './components/Uml';
 import Feedback from './components/Feedback';
 import Footer from './components/Footer';
@@ -12,7 +12,7 @@ function App() {
 		<Navbar /> 
 		<Hero /> {/*apresentação do trabalho */}
 		<UserStory /> {/*user story do trabalho*/}
-		<Hts />{/*hta do trabalho */}
+		<Hta />{/*hta do trabalho */}
 		<Uml /> {/*uml de classes*/}
 		<Feedback /> {/*feedbacks dos usuarios */}
 		<Footer />

@@ -35,7 +35,7 @@ export default function Hero() {
                         </div>
 
                         <h1 className='text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 leading-tight text-white'>
-                            <span className='bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-100 bg-clip-text text-transparent block mb-1 sm:mb-2'>Busca de Vagas</span>
+                            <span className='bg-linear-to-r from-blue-400 via-blue-300 to-cyan-100 bg-clip-text text-transparent block mb-1 sm:mb-2'>Busca de Vagas</span>
                         </h1>
 
                         <p className='text-md sm:text-base lg:text-lg text-gray-400 max-w-2xl md:max-w-lg mb-6 sm:mb-8 animate-in slide-in-from-bottom duration-700 delay-200 leading-relaxed'>
@@ -68,8 +68,8 @@ export default function Hero() {
                                     <span className="text-xs sm:text-sm">JS</span>
                                 </div>
                                 <div className="flex items-center space-x-2 bg-white/5 px-3 py-1.5 rounded-md border border-white/5 hover:border-cyan-500/30 transition-colors cursor-default">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-cyan-500"></span>
-                                    <span className="text-xs sm:text-sm">Tailwind</span>
+                                    <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+                                    <span className="text-xs sm:text-sm">CSS3</span>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ export default function Hero() {
                     {/* COLUNA 2:Iframe */}
                     <div className="w-full animate-in slide-in-from-bottom duration-700 delay-400">
                         <div className='relative bg-white/5 backdrop-blur-xl rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-2xl border border-white/5 max-w-sm mx-auto md:max-w-full md:mx-0'>
-                            <div className='flex flex-col bg-gradient-to-br from-gray-900/20 to-gray-800/20 backdrop-blur-sm rounded-lg overflow-hidden h-[420px] md:h-[350px] lg:h-[400px] border border-white/5 w-full'>
+                            <div className='flex flex-col bg-linear-to-br from-gray-900/20 to-gray-800/20 backdrop-blur-sm rounded-lg overflow-hidden h-[420px] md:h-[350px] lg:h-[400px] border border-white/5 w-full'>
 
                                 {/* Barra de Título */}
                                 <div className="flex-none flex items-center justify-between px-3 sm:px-4 py-2 sm:py-3 bg-white/5 backdrop-blur-sm border-b border-white/5">

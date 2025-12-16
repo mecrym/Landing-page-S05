@@ -4,6 +4,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Landing-page-S05/', 
+  
   plugins: [
     react({
       babel: {
