@@ -1,4 +1,5 @@
 import React from 'react';
+import htaImage from '/src/assets/hts.png';
 
 export default function Hta() {
     return (
@@ -32,7 +33,7 @@ export default function Hta() {
 
                             <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-2 sm:p-4 shadow-2xl overflow-hidden">
                                 <img 
-                                    src="public/hts.png" 
+                                    src={htaImage}
                                     alt="Diagrama HTA" 
                                     className="block w-full h-auto rounded-lg bg-white/5"
                                 />

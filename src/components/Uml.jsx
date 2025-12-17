@@ -1,4 +1,5 @@
 import React from 'react';
+import umlImage from '/src/assets/uml.png';
 
 export default function Uml() {
     return (
@@ -33,7 +34,7 @@ export default function Uml() {
 
                             <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-2 sm:p-4 shadow-2xl overflow-hidden">
                                 <img 
-                                    src="public/uml.png" 
+                                    src={umlImage}
                                     alt="Diagrama de Classes UML" 
                                     className="block w-full h-auto rounded-lg bg-white/5"
                                 />
