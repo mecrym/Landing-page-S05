@@ -44,8 +44,8 @@ export default function Feedback() {
                             </div>
                             <div>
                                 <p className="text-sm text-gray-400">Prefere enviar diretamente?</p>
-                                <a href="mailto:maria.moreira0410@gmail.com" className="text-white font-medium hover:text-blue-400 transition-colors">
-                                    maria.moreira0410@gmail.com
+                                <a href="mailto:maria.ecr.moreira1@gmail.com" className="text-white font-medium hover:text-blue-400 transition-colors">
+                                    maria.ecr.moreira1@gmail.com
                                 </a>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ export default function Feedback() {
                         <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-8 shadow-2xl">
                             
                             <form 
-                                action="https://formsubmit.co/maria.moreira0410@gmail.com" 
+                                action="https://formsubmit.co/maria.ecr.moreira1@gmail.com" 
                                 method="POST"
                                 className="space-y-6"
                             >
