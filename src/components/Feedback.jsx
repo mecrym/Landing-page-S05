@@ -22,16 +22,17 @@ export default function Feedback() {
                     {/* COLUNA 1: Texto */}
                     <div className="space-y-8 animate-in slide-in-from-bottom duration-700">
                         <div>
-                            <h2 className='text-3xl md:text-4xl font-bold mb-6 text-white leading-tight'>
-                                Sua opinião é fundamental para <br/>
+                            <h2 className='text-center text-3xl md:text-4xl font-bold mb-6 text-white leading-tight'>
+                                Sua opinião é fundamental para
+                                <span> </span>
                                 <span className="bg-linear-to-r from-blue-400 via-blue-300 to-cyan-100 bg-clip-text text-transparent">
-                                    nossa evolução
+                                     nossa evolução
                                 </span>
                             </h2>
-                            <p className="text-gray-400 text-lg leading-relaxed">
+                            <p className="text-center text-gray-400 text-lg leading-relaxed">
                                 Encontrou algum bug? Tem sugestões de melhoria para a usabilidade? Ou quer apenas deixar um comentário sobre o projeto?
                             </p>
-                            <p className="text-gray-500 mt-4">
+                            <p className="text-center text-gray-500 mt-4">
                                 Este formulário envia sua mensagem diretamente para meu email pessoal. Ficarei feliz em receber seu feedback sobre o desempenho e funcionamento do trabalho.
                             </p>
                         </div>
