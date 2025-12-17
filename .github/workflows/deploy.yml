@@ -16,27 +16,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Atualizado para Node 22 (Padrão para Vite 7/React 19 em 2025)
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
 
-      # Usamos 'install' para garantir compatibilidade com binários do Tailwind 4 (Oxide)
       - name: Install dependencies
         run: npm install
 
       - name: Build
         run: npm run build
         env:
-           # Impede que warnings do React 19 tratem o build como erro
-           CI: false 
+           CI: false
+
+      # Passo de segurança: Lista os arquivos para confirmar que a pasta dist existe
+      - name: List dist folder (Debug)
+        run: ls -R ./dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          # O caminho deve ser EXATAMENTE onde o Vite gera o build
+          path: './dist'
 
   deploy:
     environment:
